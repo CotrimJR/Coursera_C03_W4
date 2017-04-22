@@ -1,4 +1,4 @@
-#UCI HAR - Getting and Cleaning Data
+# UCI HAR - Getting and Cleaning Data
 
 The goal of this project is to extract the dataset [UCI HAR](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in its raw format and to prepare a tidy dataset that can be used for later analysis.
 
