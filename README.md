@@ -9,8 +9,8 @@ This project is composed by the following files:
 - README.md
 - run_alaysis.R
 - CodeBook.md
-- HAR_dataset.csv
-- HAR_dataset_avg.csv
+- HAR_dataset.txt
+- HAR_dataset_avg.txt
 
 
 ### README.md
@@ -75,9 +75,9 @@ Both of the train and test datasets are merged into a final dataset.
 The final dataset is then replicated and the average of all numeric variables are calculated grouped by subject and activity.
 
 
-#### 3. Exporting tidy dataSet to a CSV file
+#### 3. Exporting tidy dataSet to a TXT file
 
-Generate files `./data/HAR_Dataset.csv` and `./data/HAR_Dataset_avg.csv` that represents the final tidy dataset and the average calculated.
+Generate files `./data/HAR_Dataset.txt` and `./data/HAR_Dataset_avg.txt` that represents the final tidy dataset and the average calculated.
 
 |File          |Description                                    |
 |--------------|-----------------------------------------------|
@@ -88,10 +88,10 @@ Generate files `./data/HAR_Dataset.csv` and `./data/HAR_Dataset_avg.csv` that re
 
 CodeBook that describes the variables, the data, and any transformations or work performed to clean up the data.
 
-### HAR_dataset.csv
+### HAR_dataset.txt
 
 Tidy dataset generated in **run_alaysis.R** ready to be used for analysis.
 
-### HAR_dataset_avg.csv
+### HAR_dataset_avg.txt
 
-Tidy dataset generated in **run_alaysis.R** ready to be used for analysis. This dataset refers to the average values of the **HAR_dataset.csv** dataset.
+Tidy dataset generated in **run_alaysis.R** ready to be used for analysis. This dataset refers to the average values of the **HAR_dataset.txt** dataset.

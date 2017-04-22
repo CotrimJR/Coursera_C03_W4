@@ -118,19 +118,19 @@ dset.final.avg <- select(tbl_df(dset.final), -obsType) %>%
                   summarize_each(funs(mean))
 
 # ============================================================================================
-# 3. Exporting tidy dataSet to a CSV file
+# 3. Exporting tidy dataSet to a TXT file
 # ============================================================================================
 
 # Change variable names to descriptive form
 names(dset.final)     <- c(names(dset.final)[1:3],     dset.features$label[mean_std_var])
 names(dset.final.avg) <- c(names(dset.final.avg)[1:2], dset.features$label[mean_std_var])
 
-fileNameTidy    <- "data/HAR_dataset.csv"
-fileNameTidyAvg <- "data/HAR_dataset_avg.csv"
+fileNameTidy    <- "data/HAR_dataset.txt"
+fileNameTidyAvg <- "data/HAR_dataset_avg.txt"
 
-# Export datasets in CSV format
-write.csv(dset.final,     file = fileNameTidy,     row.names = FALSE)
-write.csv(dset.final.avg, file = fileNameTidyAvg, row.names=FALSE)
+# Export datasets in TXT format
+write.table(dset.final,     file = fileNameTidy,    row.names=FALSE)
+write.table(dset.final.avg, file = fileNameTidyAvg, row.names=FALSE)
 
 
 

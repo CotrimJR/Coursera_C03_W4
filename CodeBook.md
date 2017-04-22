@@ -25,7 +25,7 @@ The original codebook is avaliable in the **UCI HAR Dataset**.
 The transformantions necessary to generate the tidy datasets are described in the **README.md** file.
 
 
-## Variables of dataset HAR_dataset.csv 
+## Variables of dataset HAR_dataset.txt 
 
 The generated dataset contains the following variables:
 
@@ -101,7 +101,7 @@ The generated dataset contains the following variables:
 |fBodyBodyGyroJerkMag-mean()|Check "Accelerometer and gyroscope signals"|
 |fBodyBodyGyroJerkMag-std()|Check "Accelerometer and gyroscope signals"|
 
-## Variables of dataset HAR_dataset_avg.csv
+## Variables of dataset HAR_dataset_avg.txt
 
 Apart from the variable **obsType**, all the other variables are contained in this new dataset.
 
