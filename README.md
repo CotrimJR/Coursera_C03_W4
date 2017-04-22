@@ -1,7 +1,4 @@
----
-title: "UCI HAR - Getting and Cleaning Data"
-output: html_document
----
+#UCI HAR - Getting and Cleaning Data
 
 The goal of this project is to extract the dataset [UCI HAR](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in its raw format and to prepare a tidy dataset that can be used for later analysis.
 
@@ -12,8 +9,8 @@ This project is composed by the following files:
 - README.md
 - run_alaysis.R
 - CodeBook.md
-- **HAR_dataset.csv** - tidy dataset generated in **run_alaysis.R** ready to be used for analysis.
-- **HAR_dataset_avg.csv** - tidy dataset generated in **run_alaysis.R** ready to be used for analysis.
+- HAR_dataset.csv
+- HAR_dataset_avg.csv
 
 
 ### README.md
@@ -93,7 +90,8 @@ CodeBook that describes the variables, the data, and any transformations or work
 
 ### HAR_dataset.csv
 
+Tidy dataset generated in **run_alaysis.R** ready to be used for analysis.
 
 ### HAR_dataset_avg.csv
 
-Dataset
+Tidy dataset generated in **run_alaysis.R** ready to be used for analysis. This dataset refers to the average values of the **HAR_dataset.csv** dataset.
